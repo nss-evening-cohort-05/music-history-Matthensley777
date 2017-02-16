@@ -1,0 +1,48 @@
+/*Red = #FFB4B0  
+Blue = #4DD7FA  
+Light yellow = #FEFAC0  
+Dark yellow = #785616*/
+
+.nav {
+	background-color: #FFB4B0;
+	list-style-type: none;
+	border: solid black 2px;
+	display: inline-flex;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+.options {
+	background-color: #4DD7FA;
+	list-style-type: none;
+	border: solid black 2px;
+	width: 15%;
+	padding-left: 25px;
+}
+
+.songname {
+	background-color: #FEFAC0;
+	list-style-type: none;
+	border: solid black 2px;
+	margin-left: 10px;
+	width: 100%;
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+
+.arragement {
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; 
+   flex-direction: row;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+}
+
+.li {
+	display: inline-flex;
+}
